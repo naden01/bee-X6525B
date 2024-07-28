@@ -111,7 +111,6 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_NO_SCREEN_BLANK := true
@@ -121,6 +120,8 @@ TW_EXCLUDE_APEX := true
 TARGET_USES_MKE2FS := true # Use mke2fs to create ext4 images
 TW_MAX_BRIGHTNESS := 1200
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_NO_BATT_PERCENT := true
+TW_NO_EXTRA_LANGUAGES := true
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
