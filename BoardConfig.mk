@@ -110,7 +110,7 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
-TW_NO_SCREEN_BLANK := truev
+TW_NO_SCREEN_BLANK := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TARGET_USES_MKE2FS := true # Use mke2fs to create ext4 images
 TW_INCLUDE_REPACKTOOLS := true
