@@ -114,7 +114,6 @@ TW_HAS_NO_RECOVERY_PARTITION := true
 TW_NO_BATT_PERCENT := true
 TW_NO_CPU_TEMP := true
 TW_EXTRA_LANGUAGES := false
-BOARD_HAS_NO_REAL_SDCARD := true
 
 #idk
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
@@ -125,8 +124,8 @@ TW_DEFAULT_BRIGHTNESS := 1200
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
 # Crypto
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
+#TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_CRYPTO_FBE := true
 
 # Excludes
 TW_EXCLUDE_TWRPAPP := true
