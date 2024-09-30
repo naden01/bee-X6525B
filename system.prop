@@ -8,8 +8,8 @@ ro.sys.usb.storage.type=mtp
 ro.adb.secure=0
 
 # MTK
-ro.vendor.mediatek.platform=MT6833
-ro.hardware=mt6833
+ro.vendor.mediatek.platform=MT6765
+ro.hardware=mt6765
 
 # Board
 ro.product.device=X6525B
