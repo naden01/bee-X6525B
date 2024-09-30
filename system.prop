@@ -1,9 +1,16 @@
-# some Properties
-ro.crypto.volume.filenames_mode=aes-256-cts
+# Fstab
+ro.postinstall.fstab.prefix=/system
 
-# Gatekeeper
-ro.hardware.gatekeeper=trustonic
+# USB MTP
+ro.sys.usb.storage.type=mtp
 
-# TEE
-ro.vendor.mtk_tee_gp_support=1
-ro.vendor.mtk_trustonic_tee_support=1
+# misc
+ro.adb.secure=0
+
+# MTK
+ro.vendor.mediatek.platform=MT6833
+ro.hardware=mt6833
+
+# Board
+ro.product.device=X6525B
+ro.build.product=X6525B
