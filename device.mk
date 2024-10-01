@@ -24,7 +24,7 @@ PRODUCT_PACKAGES_DEBUG += \
      update_engine_client
 
 PRODUCT_PACKAGES += \
-    bootctrl.mt6765
+    bootctrl.mt6765 \
     bootctrl.mt6765.recovery
 
 PRODUCT_PACKAGES += \
